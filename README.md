@@ -1,5 +1,5 @@
 # Nmap
-4/08/26 intership elevate labs
+4/08/25 intership elevate labs
 Steps Performed Identified the local network IP range (e.g., 192.168.1.0/24).
 
 Ran a TCP SYN scan with:
