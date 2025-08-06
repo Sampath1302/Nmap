@@ -1,4 +1,4 @@
- nmap -sS 192.168.1.6/24
+ nmap -sS 192.168.1.16/24
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-04 19:26 India Standard Time
 Nmap scan report for 192.168.1.1
 Host is up (0.010s latency).
@@ -11,9 +11,9 @@ PORT     STATE    SERVICE
 80/tcp   open     http
 443/tcp  open     https
 5431/tcp filtered park-agent
-MAC Address: F8:C4:F3:47:56:F0 (Shanghai Infinity Wireless Technologies)
+MAC Address: F8:C4:F4:47:56:F8 (Shanghai Infinity Wireless Technologies)
 
-Nmap scan report for 192.168.1.2
+Nmap scan report for 192.168.1.12
 Host is up (0.039s latency).
 Not shown: 996 closed tcp ports (reset)
 PORT     STATE SERVICE
@@ -21,15 +21,15 @@ PORT     STATE SERVICE
 8009/tcp open  ajp13
 8443/tcp open  https-alt
 9000/tcp open  cslistener
-MAC Address: F8:3B:1D:97:3B:B4 (Vantiva USA)
+MAC Address: F8:3B:1D:97:3D:B4 (Vantiva USA)
 
-Nmap scan report for 192.168.1.7
+Nmap scan report for 192.168.1.17
 Host is up (0.062s latency).
-All 1000 scanned ports on 192.168.1.7 are in ignored states.
+All 1000 scanned ports on 192.168.1.17 are in ignored states.
 Not shown: 1000 closed tcp ports (reset)
-MAC Address: EA:A2:7D:67:53:62 (Unknown)
+MAC Address: EA:A2:7A:67:53:62 (Unknown)
 
-Nmap scan report for 192.168.1.9
+Nmap scan report for 192.168.1.19
 Host is up (0.048s latency).
 Not shown: 998 closed tcp ports (reset)
 PORT      STATE SERVICE
@@ -37,7 +37,7 @@ PORT      STATE SERVICE
 62078/tcp open  iphone-sync
 MAC Address: FE:6F:38:2D:E0:26 (Unknown)
 
-Nmap scan report for 192.168.1.6
+Nmap scan report for 192.168.1.16
 Host is up (0.0019s latency).
 Not shown: 977 closed tcp ports (reset)
 PORT     STATE    SERVICE
@@ -63,4 +63,5 @@ PORT     STATE    SERVICE
 1025/tcp filtered NFS-or-IIS
 1122/tcp filtered availant-mgr
 1433/tcp filtered ms-sql-s
+
 5357/tcp open     wsdapi
